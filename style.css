@@ -1,3 +1,38 @@
 *{
-    border: 1px solid black;
-} 
+    margin: 0px;
+}
+#mainheader {
+    width: 100%;
+    background-color:rgb(38, 46, 54) ;
+   
+    padding:5px 0;
+    text-align: center;
+    color: white;
+    font-weight: bold;  
+    
+    }
+
+.article {
+        
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+.article p { width: 1000px;
+text-align: justify;}
+img {
+    width: 400px;
+}
+
+.footerinfo{
+    background-color: black;
+    color: white;
+    
+    text-align: center;
+}
+
+.articles article:first-child{
+    background-color: cornsilk;
+    align-content: center;
+    margin-top:0px;
+    padding-top: 50px;
+}
