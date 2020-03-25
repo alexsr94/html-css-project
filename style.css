@@ -1,4 +1,5 @@
-*{
+@media screen and (min-width : 400px) {
+    *{
     margin: 0px;
 }
 #mainheader {
@@ -14,18 +15,32 @@
 
 .article {
     display: flex;
-flex-direction: row;
-justify-content: space-around;
+flex-direction: column;
+align-items: center;
+
+align-content: center;
+    margin-top:0px;
+    padding-top: 30px;
+
         
-        margin-top: 50px;
-        margin-bottom: 50px;
+        
     }
-.article p { width: 700px;
+.article p { 
 text-align: justify;
 align-self: center;
+width: 95%;
 }
-img {
-    width: 400px;
+.article header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.article img {
+   padding-top: 5%;
+    width: 200px;
+    
+  
 }
 
 .footerinfo{
@@ -34,10 +49,223 @@ img {
     
     text-align: center;
 }
-
+#main{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+}
+.articles{
+    display: grid;
+    grid-template-columns: 80% ;
+    grid-gap: 15px;
+    overflow: hidden;
+    
+    
+}
 .articles article:first-child{
     background-color: cornsilk;
     align-content: center;
     margin-top:0px;
     padding-top: 50px;
 }
+#sidebar{
+    padding-top: 2%;
+    margin-left: 3%;
+    border: solid 1px gray;
+    width: 20%;
+    text-align: center;
+    
+    
+    
+    
+}
+#sidebar h5 {
+    padding: 0% 5% 0% 5%;
+    
+}
+#crop img{
+    padding-top: 5%;
+}
+}
+
+@media screen and (min-width : 900px) {
+    *{
+    margin: 0px;
+}
+#mainheader {
+    width: 100%;
+    background-color:rgb(38, 46, 54) ;
+   
+    padding:5px 0;
+    text-align: center;
+    color: white;
+    font-weight: bold;  
+    
+    }
+
+.article {
+    display: flex;
+flex-direction: column;
+align-items: center;
+
+align-content: center;
+    margin-top:0px;
+    padding-top: 30px;
+
+        
+        
+    }
+.article p { 
+text-align: justify;
+align-self: center;
+width: 95%;
+}
+.article header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.article img {
+   padding-top: 5%;
+    width: 200px;
+    
+  
+}
+
+.footerinfo{
+    background-color: black;
+    color: white;
+    
+    text-align: center;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+}
+.articles{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 15px;
+    overflow: hidden;
+    
+    
+}
+.articles article:first-child{
+    background-color: cornsilk;
+    align-content: center;
+    margin-top:0px;
+    padding-top: 50px;
+}
+#sidebar{
+    padding-top: 2%;
+    margin-left: 3%;
+    border: solid 1px gray;
+    width: 20%;
+    text-align: center;
+    
+    
+    
+    
+}
+#sidebar h5 {
+    padding: 0% 5% 0% 5%;
+    
+}
+#crop img{
+    padding-top: 5%;
+}
+}
+
+@media screen and (min-width : 1024px) {
+    *{
+    margin: 0px;
+}
+#mainheader {
+    width: 100%;
+    background-color:rgb(38, 46, 54) ;
+   
+    padding:5px 0;
+    text-align: center;
+    color: white;
+    font-weight: bold;  
+    
+    }
+
+.article {
+    display: flex;
+flex-direction: column;
+align-items: center;
+
+align-content: center;
+    margin-top:0px;
+    padding-top: 30px;
+
+        
+        
+    }
+.article p { 
+text-align: justify;
+align-self: center;
+width: 95%;
+}
+.article header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.article img {
+   padding-top: 5%;
+    width: 200px;
+    
+  
+}
+
+.footerinfo{
+    background-color: black;
+    color: white;
+    
+    text-align: center;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+}
+.articles{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 15px;
+    overflow: hidden;
+    
+    
+}
+.articles article:first-child{
+    background-color: cornsilk;
+    align-content: center;
+    margin-top:0px;
+    padding-top: 50px;
+}
+#sidebar{
+    padding-top: 2%;
+    margin-left: 3%;
+    border: solid 1px gray;
+    width: 20%;
+    text-align: center;
+    
+    
+    
+    
+}
+#sidebar h5 {
+    padding: 0% 5% 0% 5%;
+    
+}
+#crop img{
+    padding-top: 5%;
+}
+}
+
+
